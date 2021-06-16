@@ -1,0 +1,53 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Bruno Gabriel Souza",
+            "document": "385.117.011-33",
+            "account_id": 612,
+            "person_id": 612
+        },
+        {
+            "id": 2,
+            "name": "Anthony Sebastião Tiago Aparício",
+            "document": "888.929.171-02",
+            "account_id": 109,
+            "person_id": 109
+        },
+        {
+            "id": 3,
+            "name": "Brenda Emily Ramos",
+            "document": "663.299.106-85",
+            "account_id": 609,
+            "person_id": 609
+        },
+        {
+            "id": 4,
+            "name": "Clara Mariane Manuela Moreira",
+            "document": "068.235.323-00",
+            "account_id": 677,
+            "person_id": 677
+        },
+        {
+            "id": 5,
+            "name": "Otávio Lucca Costa",
+            "document": "356.997.185-67",
+            "account_id": 762,
+            "person_id": 762
+        },
+        {
+            "id": 6,
+            "name": "Guilherme Carlos Eduardo Osvaldo Farias",
+            "document": "212.644.577-15",
+            "account_id": 400,
+            "person_id": 400
+        },
+        {
+            "id": 7,
+            "name": "Regina Isis da Costa",
+            "document": "315.279.042-29",
+            "account_id": 479,
+            "person_id": 479
+        }
+    ]
+}
