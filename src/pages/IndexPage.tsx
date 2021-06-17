@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
 import DataTable from "react-data-table-component";
-import User from "../../models/User";
-import api from "../../services/api";
+import User from "../models/User";
+import api from "../services/api";
+import Menu from '../components/menu';
+
+import styles from '../styles/index-page.module.css'
 
 const columns = [
   {
@@ -26,7 +29,7 @@ const columns = [
   },
 ];
 
-const Users: React.FC = () => {
+const IndexPage: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
 
   useEffect(() => {
@@ -36,17 +39,20 @@ const Users: React.FC = () => {
   }, []);
 
   return (
-    <div className="">
-      <DataTable
-        title="Usuários"
-        columns={columns}
-        data={users}
-        pagination
-        paginationPerPage={5}
-        paginationRowsPerPageOptions={[5, 10, 25, 50]}
-      />
-    </div>
+    <>
+      <Menu />
+      <div className={styles.principal}>
+        <DataTable
+          title="Usuários"
+          columns={columns}
+          data={users}
+          pagination
+          paginationPerPage={5}
+          paginationRowsPerPageOptions={[5, 10, 25, 50]}
+        />
+      </div>
+    </>
   );
 };
 
-export default Users;
+export default IndexPage;

@@ -16,6 +16,10 @@ textarea {
   font: 600 18px Nunito, sans-serif;
 }
 
+#root {
+  display: flex;
+}
+
 #logo {
   width: 320px;
 }

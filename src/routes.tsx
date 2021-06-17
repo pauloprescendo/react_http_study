@@ -1,14 +1,14 @@
 import { BrowserRouter, Route } from "react-router-dom";
 
 // pages
-import Users from "./pages/Users";
-import Signin from "./pages/Signin";
+import IndexPage from "./pages/IndexPage";
+import SigninPage from "./pages/SigninPage";
 
 function Routes() {
   return (
     <BrowserRouter>
-      <Route exact path="/" component={Signin} />
-      <Route path="/users" component={Users} />
+      <Route exact path="/" component={SigninPage} />
+      <Route path="/users" component={IndexPage} />
     </BrowserRouter>
   );
 }
